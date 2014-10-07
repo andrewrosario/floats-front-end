@@ -6,23 +6,29 @@
 /* Example 03 */
 
 .container {
-	width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 }
 
 
-.header {}
+.header {
+	width: 100%;
+}
 
 .sidebar {
+	float: right;
 	/* hint! */
+	width: 30%;
 }
 
 .main-content {
 	/* hint! */
+	float: right;
+	width: 70%;
 }
 
 .footer {
-	/* hint! */
+	clear: both;
 }
 
 /*

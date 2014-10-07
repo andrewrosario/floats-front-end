@@ -6,27 +6,43 @@
 /* Example 04 */
 
 .container {
-	width: 1024px;
+	width: 100%;
 	margin: 0 auto;
 }
 
+.clear {
+	clear: both;
+	content: " ";
+	font-size: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
 
-.header {}
+.header {
+	width: 100%;
+}
 /* hint! you have to contain the floated children elements. */
 
 .logo {
-	/* hint! */
+	float: left;
 }
 
 .navigation {
-	/* hint! */
+	float: right;
 }
 
 .sidebar {
+	float: left;
+	width: 30%;
 }
 
 .main-content {
+	float: left;
+	width: 70%;
 }
 
 .footer {
+	clear: both;
+
 }

@@ -14,14 +14,16 @@
 
 .sidebar {
 	float: left;
-	width: 250px;
+	width: 30%;
+	height: 500px;
 }
 
 .main-content {
 	float: left;
-	/* hint! */
+	width: 70%;
+	height: 500px;
 }
 
 .footer {
-	/* hint! */
+	clear: both;
 }

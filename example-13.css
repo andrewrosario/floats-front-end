@@ -6,3 +6,37 @@
 /* Example 13 */
 
 /* I'm blank! Write some CSS to style your layout! */
+
+.header {
+	height: 300px;
+	background-color: yellow;
+}
+
+.spacer {
+	background-color: yellow;
+	height: 30%;
+}
+
+.leftpic {
+	float: left;
+	border: 2px solid black;
+	height: 300px;
+	width: 150px;
+	margin-left: 40px;
+	background-color: orange;
+
+}
+
+.rightpic {
+	float: right;
+	border: 2px solid black;
+	height: 300px;
+	width: 150px;
+	margin-right: 40px;
+	background-color: green;
+}
+
+.nav {
+	border: 3px solid blue;
+	margin-top: 5px;
+}

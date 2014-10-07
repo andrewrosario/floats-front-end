@@ -6,13 +6,33 @@
 /* Example 11 */
 
 .header {}
+.clear {
+	clear: both;
+	content: " ";
+	font-size: 0;
+	height: 0;
+	margin: 0;
+	padding: 0;
+}
 
-.main-content {}
+.main-content {
+	width: 100%;
+
+}
 /* hint! */
 
 .post {}
 /* hint! */
 
-.image {}
+.image {
+	float: left;
+	margin: 15px;
+}
 
 .post_excerpt {}
+.logo {
+	float: left;
+}
+.navigation {
+	float: right;
+}
